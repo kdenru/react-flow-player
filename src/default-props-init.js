@@ -22,6 +22,7 @@ const defaultPropsInit = {
 	seekingText: '10',
 	onError: noop,
 	onResume: noop,
+	onFinish: noop,
 	speedPlugin: false,
 	speedUrl: '//releases.flowplayer.org/speed-menu/flowplayer.speed-menu.min.js',
 	styleUrl: '//releases.flowplayer.org/7.2.4/skin/skin.css',

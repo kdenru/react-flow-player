@@ -14,16 +14,16 @@
     "react player component",
     "react player"
   ],
-  "author": "Aman Agarwal <agarwal.aman041@gmail.com> (https://github.com/AmanAgarwal041/)",
+  "author": "Aman Agarwal, Denis Komogorcev",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gradeup/react-flow-player"
+    "url": "git+https://github.com/kdenru/react-flow-player"
   },
   "bugs": {
-    "url": "https://github.com/gradeup/react-flow-player/issues"
+    "url": "https://github.com/kdenru/react-flow-player/issues"
   },
-  "homepage": "https://github.com/gradeup/react-flow-player#readme",
+  "homepage": "https://github.com/kdenru/react-flow-player#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",

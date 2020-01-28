@@ -36,6 +36,7 @@ const propTypesConfig = {
 	seekBwHtml: PropTypes.string,
 	onError: PropTypes.func,
 	onResume: PropTypes.func,
+	onFinish: PropTypes.func,
 	speedPlugin: PropTypes.bool,
 	hlsUrl: PropTypes.string,
 	speedUrl: PropTypes.string,

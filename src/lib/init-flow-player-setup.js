@@ -21,6 +21,7 @@ const initFlowPlayerSetup = props => {
 		volume,
 		onError,
 		onResume,
+		onFinish,
 		licenseKey,
 		logo,
 		hlsQualities,
@@ -83,7 +84,10 @@ const initFlowPlayerSetup = props => {
 
 	const player = window.flowplayer(`#${props.playerId}`, config);
 	if (player) {
-		player.on('resume', onResume).on('error', onError);
+		player
+			.on('resume', onResume)
+			.on('finish', onFinish)
+			.on('error', onError);
 		const intervalBreak = setInterval(function(){
 			const item = document.getElementsByClassName('fp-controls');
 			if (item) {

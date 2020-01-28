@@ -1,15 +1,16 @@
 
-# The Project is no longer maintained. Please use an actively developed [fork](https://github.com/gradeup/react-flow-player/network/members) !!!
+# The Project is fork of this [project](https://github.com/gradeup/react-flow-player/)!
  
-
-# react-flow-player
+# react-flowplayer
 
 `<ReactFlowPlayer>` is a React Component for integrating the flow player into your react app. Passing props to the component will configure the flow player and will embed the player into your app.
+
+In this fork `onFinish` callback was added.
 
 ## Installation
 
 ```shell
-npm install react-flow-player react react-dom prop-types
+npm install react-flowplayer
 ```
 
 ## Usage
@@ -17,7 +18,7 @@ npm install react-flow-player react react-dom prop-types
 ### Without Custom Buttons
 
 ```javascript
-import ReactFlowPlayer from "react-flow-player";
+import ReactFlowPlayer from "react-flowplayer";
 
 <ReactFlowPlayer
   playerInitScript="http://releases.flowplayer.org/7.2.1/flowplayer.min.js"
@@ -91,6 +92,7 @@ There are some props that are optional by the component :
 - `seekingText` - The seeking is the texts for the seeking icons on the player. - Type : **_String_** - Default : **'10'**
 - `onError` - The function that executes when there occurs an error while playing the video. - Type : **_Function_** - Default : **`() => {}`** - Parameters : - first is the event object - second is the flowplayer configured object - third is the error object
 - `onResume` - The function that executes when video playing resumes. - Type : **_Function_** - Default : **`() => {}`** - Parameters : - first is the event object - second is the flowplayer configured object
+- `onFinish` - The function that executes when video playing ended. - Type : **_Function_** - Default : **`() => {}`** - Parameters : - first is the event object - second is the flowplayer configured object
 - `speedPlugin` - The speedPlugin is the boolean value for adding speed streaming for supported formats. - Type : **_Boolean_** - Default : **false** - Rtmp doesn't support speed playing but hls does.
 - `hlsUrl` - The hlsUrl is used for specifying the versioned url for the hls plugin script. - Type : **_String_** - Default : **https://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.light.min.js**
 - `speedUrl` - The speedUrl is used for specifying the versioned url for the speed plugin script. - Type : **_String_** - Default : **https://releases.flowplayer.org/speed-menu/flowplayer.speed-menu.min.js**
@@ -123,8 +125,4 @@ You can visit some links for reference:
 - [React](https://reactjs.org/)
 - [Flow Player Setup Options](https://flowplayer.com/docs/player/setup)
 - [Github Link For Repo](https://github.com/gradeup/react-flow-player)
-- [Npm Link for the module](https://www.npmjs.com/package/react-flow-player)
-
-## Organisation
-
-[![Gradeup](https://gs-post-images.grdp.co/2017/2/img1486706448140-41-rs-high-webp.png)](https://gradeup.co)
+- [Npm Link for the module](https://www.npmjs.com/package/react-flowplayer)
