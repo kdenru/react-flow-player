@@ -1,5 +1,5 @@
 {
-  "name": "react-flow-player",
+  "name": "react-flowplayer",
   "version": "1.3.0",
   "description": "React component for embeding flow player",
   "main": "dist/react-flow-player.js",
